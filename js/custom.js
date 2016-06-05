@@ -26,14 +26,15 @@
 
 jQuery(function($) {
   "use strict";
- $.noConflict();
+
+  $.noConflict();
      $('.nav a').on('click', function(){ 
         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
     });
 
-   
+  
 //  Navigation scrolling
 
       $('a.page-scroll').click(function() {
@@ -48,8 +49,6 @@ jQuery(function($) {
             }
           }
         });
-
-   
 
 
  

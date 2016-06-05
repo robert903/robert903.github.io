@@ -10,9 +10,6 @@
 /* Medium Devices, Desktops */
 @media (min-width : 992px) {
 
-	/*ul.navbar-nav a {
-    	padding: 15px 0px 10px 19px;
-	}*/
 	/*portfolio*/
 	
 	.single-portfolio figcaption .links a {
@@ -131,7 +128,25 @@
 	.app-gallery figure.effect-oscar a{
 		margin-top: 105px;
 	}
-
+	.hero-section {
+	    padding-bottom: 0px;
+	    padding-top: 0px;
+	}
+	.hero-content {
+	    position: relative;
+	    display: table;
+	    height: 100%;
+	    width: 100%;
+	}
+	.hero-text{
+		padding-top: 90px;
+	}
+	.footer_b {
+	    padding-bottom: 25px;
+	}
+	.footer_mid{
+		float: left !important;
+	}
 
 }
 
@@ -317,6 +332,7 @@
 	#back-top {
     	right: 12px;
 	}
+	
 
 }
 	
